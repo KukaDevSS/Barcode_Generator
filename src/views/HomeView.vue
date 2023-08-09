@@ -78,10 +78,10 @@ export default {
                 }
                 .barcode-svg {
                   /* Adjusted to 2 cm height and 3 cm width */
-                  height: 1.6cm;
-                  width: 3.4cm;
+                  height: 1.8cm;
+                  width: 4cm;
                   font-size: 12px;
-                  margin-top: -2px;
+                  margin-top: -4px;
                 }
                 .barcode-text {
                   font-size: 30px; /* Adjust the font size as needed */
@@ -98,7 +98,7 @@ export default {
                 }
                 .barcode-header{
                   width: 150px;
-                  font-size: 8px;
+                  font-size: 10px;
                   text-align: center;
                   margin-top: -9px;
                   font-family: 'Noto Sans Lao', sans-serif;
@@ -147,8 +147,8 @@ export default {
     return text;
   },
     generateBarcodeHtml(barcode) {
-      const svgHeight = "1.6cm"; // Set your desired height (e.g., "3cm")
-      const svgWidth = "3.4cm";  // Set your desired width (e.g., "5cm")
+      const svgHeight = "2cm"; // Set your desired height (e.g., "3cm")
+      const svgWidth = "4cm";  // Set your desired width (e.g., "5cm")
 
     // Modify this section to include your header text
       const headerText = this.name;
@@ -172,3 +172,5 @@ export default {
   margin: 0 auto;
 }
 </style>
+
+
