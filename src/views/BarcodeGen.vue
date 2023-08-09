@@ -128,7 +128,7 @@
           // After printing, close the print window and navigate to the home page
           printWindow.close();
           // Navigate to the home page
-          window.location.href = '/product'; 
+          window.location.href = '/'; 
           // this.$router.push({ name: 'product' });
         });
       },
